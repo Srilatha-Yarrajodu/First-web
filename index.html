@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SRIT College Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <span>📞 +91-951 561 1111</span>
+  <span>✉ hr@mycollege.ac.in</span>
+</div>
+
+<!-- Navigation Bar -->
+<div class="nav">
+  <a href="faculty.html">Faculty Login</a>
+  <a href="student-login.html" class="student-login-link">Student Login</a>
+  <a href="alumni.html">Alumni</a>
+  <a href="downloads.html">Downloads</a>
+  <a href="contact.html">Contact Us</a>
+</div>
+
+<!-- Logo Section -->
+<div class="logo-section">
+  <img src="logo.png" alt="College Logo" class="college-logo">
+  <h2>Srinivasa Ramanujan Institute of Technology</h2>
+  <p>Autonomous</p>
+</div>
+<!-- Banner -->
+<div class="banner">
+  <marquee>2025–26 Placements: TCS – 103 Students Selected</marquee>
+</div>
+<!-- Banner Carousel -->
+<div class="banner-carousel">
+  <div class="slide active">2025–26 Placements: TCS – 103 Students Selected</div>
+  <div class="slide">National Seminar on AI – Jan 2026</div>
+  <div class="slide">New Research Lab inaugurated</div>
+  <div class="slide">120 Students Placed in Infosys</div>
+</div>
+
+<!-- Image below banner -->
+<div class="below-banner-image">
+  <img src="campus.jpg" alt="College Campus">
+</div>
+
+
+<!-- News & Events Section -->
+<section class="news-events">
+  <h2>Latest News & Events</h2>
+  <div class="news-container">
+    <div class="news-card">
+      <h3>AI Seminar 2026</h3>
+      <p>National Seminar on Artificial Intelligence conducted in Jan 2026.</p>
+    </div>
+    <div class="news-card">
+      <h3>Placements Update</h3>
+      <p>120 students successfully placed in Infosys and TCS this year.</p>
+    </div>
+    <div class="news-card">
+      <h3>Research Lab</h3>
+      <p>New state-of-the-art Research Lab inaugurated on campus.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Student Registration Section -->
+<h2 id="student-section">Student Registration</h2>
+<form id="registerForm">
+  <input type="text" id="name" placeholder="Student Name" required><br><br>
+  <input type="email" id="email" placeholder="Email" required><br><br>
+  <input type="password" id="password" placeholder="Password" required><br><br>
+  <button type="submit">Register</button>
+</form>
+
+<p id="message" class="success-message"></p>
+
+<!-- Features Section -->
+<section class="features-section">
+  <a href="courses.html" class="feature-card">
+    <div class="feature-icon">🎓</div>
+    <h3>Courses Offered</h3>
+  </a>
+  <a href="admission.html" class="feature-card">
+    <div class="feature-icon">📚</div>
+    <h3>Admission Procedure</h3>
+  </a>
+  <a href="fees.html" class="feature-card">
+    <div class="feature-icon">💰</div>
+    <h3>Fee Structure</h3>
+  </a>
+  <a href="scholarships.html" class="feature-card">
+    <div class="feature-icon">🏆</div>
+    <h3>Scholarships</h3>
+  </a>
+</section>
+
+<!-- About SRIT -->
+<p class="about-text">
+Srinivasa Ramanujan Institute of Technology is an autonomous institution
+committed to excellence in technical education, innovation, and research.
+</p>
+
+<a href="about-srit.html" class="read-more">READ MORE →</a>
+
+<!-- Faculty Section -->
+<section class="faculty-section">
+  <h2>Our Faculty</h2>
+  <div class="faculty-container">
+    <div class="faculty-card">
+      <img src="faculty1.jpg" alt="Dr. Suresh">
+      <h3>Dr. Suresh Kumar</h3>
+      <p>Head of Computer Science</p>
+    </div>
+    <div class="faculty-card">
+      <img src="faculty2.jpg" alt="Dr. Priya">
+      <h3>Dr. Priya R.</h3>
+      <p>Professor, Electronics</p>
+    </div>
+    <div class="faculty-card">
+      <img src="faculty3.jpg" alt="Dr. Anand">
+      <h3>Dr. Anand V.</h3>
+      <p>Professor, Mechanical</p>
+    </div>
+  </div>
+</section>
+
+<!-- Alumni Section -->
+<section class="alumni-section">
+  <h2>Alumni Success Stories</h2>
+  <div class="alumni-container">
+    <div class="alumni-card">
+      <p>“I studied at SRIT and got placed in TCS. The faculty support and curriculum prepared me well for the industry.”</p>
+      <h4>- Dhanush K.</h4>
+    </div>
+    <div class="alumni-card">
+      <p>“Thanks to SRIT, I was able to secure a position in Infosys. Great campus and excellent teaching!”</p>
+      <h4>- Priya R.</h4>
+    </div>
+    <div class="alumni-card">
+      <p>“SRIT’s labs and research opportunities gave me the hands-on experience I needed for my career.”</p>
+      <h4>- Anand V.</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-container">
+    <div class="contact-form">
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required><br><br>
+        <input type="email" id="contactEmail" placeholder="Your Email" required><br><br>
+        <textarea id="contactMessage" placeholder="Your Message" rows="4" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="contactMsg"></p>
+    </div>
+    <div class="contact-map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.123456789!2d78.4866715!3d17.385044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb0c0d0!2sSrinivasa%20Ramanujan%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1234567890" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Back to Top Button -->
+<a href="#top" class="back-to-top">⬆</a>
+
+<!-- Scripts -->
+<script>
+  // Banner Carousel
+  let slides = document.querySelectorAll('.slide');
+  let currentIndex = 0;
+  function showNextSlide() {
+    slides[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % slides.length;
+    slides[currentIndex].classList.add('active');
+  }
+  setInterval(showNextSlide, 3000);
+
+  // Registration Form
+  document.getElementById("registerForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    const response = await fetch("/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, password })
+    });
+
+    const data = await response.json();
+    document.getElementById("message").innerText = data.message || data.error;
+  });
+
+  // Contact Form
+  document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("contactMsg").innerText = "Message sent successfully!";
+    this.reset();
+  });
+</script>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- About -->
+    <div class="footer-about">
+      <h3>About SRIT</h3>
+      <p>
+        Srinivasa Ramanujan Institute of Technology is an autonomous institution
+        committed to excellence in technical education, innovation, and research.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="courses.html">Courses Offered</a></li>
+        <li><a href="admission.html">Admission Procedure</a></li>
+        <li><a href="fees.html">Fee Structure</a></li>
+        <li><a href="scholarships.html">Scholarships</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📞 +91-951 561 1111</p>
+      <p>✉ hr@mycollege.ac.in</p>
+      <p>🏫 Srinivasa Ramanujan Institute of Technology, Hyderabad</p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 SRIT. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+</head>
+<body>
+
+<h2 id="welcome"></h2>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const name = params.get("name");
+
+document.getElementById("welcome").innerText =
+  "Welcome, " + (name || "Student");
+</script>
+
+</body>
+</html>

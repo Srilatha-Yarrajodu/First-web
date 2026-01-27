@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+</head>
+<body>
+
+<h1>Welcome Student</h1>
+<p id="studentInfo"></p>
+
+<script>
+fetch("/student")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("studentInfo").innerHTML = `
+      Name: ${data.name}<br>
+      Email: ${data.email}
+    `;
+  });
+</script>
+
+</body>
+</html>
