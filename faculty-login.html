@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faculty Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Faculty Login</h2>
+
+<form id="facultyLoginForm">
+  <input type="email" id="facultyEmail" placeholder="Faculty Email" required><br><br>
+  <input type="password" id="facultyPassword" placeholder="Password" required><br><br>
+  <button type="submit">Login</button> 
+</form>
+
+<p id="facultyMessage"></p>
+
+
+<script>
+document.getElementById("facultyLoginForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const email = document.getElementById("facultyEmail").value;
+  const password = document.getElementById("facultyPassword").value;
+
+  // Demo login (static)
+  if(email === "faculty@srit.ac.in" && password === "1234") {
+    window.location.href = "faculty-dashboard.html";
+  } else {
+    document.getElementById("facultyMessage").innerText =
+      "Invalid Faculty Credentials";
+  }
+});
+</script>
+
+</body>
+</html>
