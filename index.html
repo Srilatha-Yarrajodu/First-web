@@ -202,12 +202,20 @@ committed to excellence in technical education, innovation, and research.
     document.getElementById("message").innerText = data.message || data.error;
   });
 
+  
   // Contact Form
   document.getElementById("contactForm").addEventListener("submit", function(e){
     e.preventDefault();
     document.getElementById("contactMsg").innerText = "Message sent successfully!";
     this.reset();
   });
+</script>
+
+<script>
+document.getElementById("registerForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Registration works locally on backend, GitHub version is frontend-only demo.");
+});
 </script>
 
 <!-- Footer Section -->
