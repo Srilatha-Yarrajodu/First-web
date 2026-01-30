@@ -427,3 +427,50 @@ button:hover {
   font-weight: bold;
   color: green;
 }
+button[type="submit"] {
+  background-color: #0b5ed7;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #084298;
+}
+#clubs {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f6f8;
+}
+
+#clubs h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #003366;
+}
+
+.club-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.club-btn {
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.club-btn:hover {
+  background-color: #002f6c;
+  transform: scale(1.05);
+}
